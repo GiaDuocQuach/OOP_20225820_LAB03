@@ -15,8 +15,8 @@ public class CartTest {
     public static void main(String[] args) {
         Cart cart =new Cart();
         // Tao doi tuong DVD
-        DigitalVideoDisc dvd1 = new DigitalVideoDisc("Arcane", "Animation", "Bright", 87, 19.95f);
-        DigitalVideoDisc dvd2 = new DigitalVideoDisc("Arcane2", "Animation", "Bright", 90, 20.05f);
+        DigitalVideoDisc dvd1 = new DigitalVideoDisc("Arcane", "Animation", "Dung g", 87, 19.95f);
+        DigitalVideoDisc dvd2 = new DigitalVideoDisc("Arcane2", "Animation", "Dung g", 90, 20.05f);
         // them vao gio hang
         cart.addDigitalVideoDisc(dvd1);
         cart.addDigitalVideoDisc(dvd2);
